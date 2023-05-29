@@ -3,7 +3,7 @@
 
 9.- Se crea el árbol de dispositivos para su Tarjeta de Desarrollo (pico-pi-iMX7D). El árbol de dispositivos depende tanto del SOM y sus módulos, como del SoC (con los Cortex A7 y del procesador auxilia Cortex M4), así como de la placa base que esté utilizando (la carrier board):
 
-[Diagrama de Dependencia del Árbol de Dispositivo](./Arbol_de_Dispositivo_iMX7D.png)
+![Diagrama de Dependencia del Árbol de Dispositivo](./Arbol_de_Dispositivo_iMX7D.png)
 
 Como estamos construyendo para el SOM Pico-imx7d, montado en una carrier board pico-pi, el comando para construir el árbol de dispositivos es:
 
